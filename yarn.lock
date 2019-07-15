@@ -2663,12 +2663,6 @@ fresh@0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/fresh/-/fresh-0.5.0.tgz#f474ca5e6a9246d6fd8e0953cfa9b9c805afa78e"
 
-fs-access@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz#d6a87f262271cefebec30c553407fb995da8777a"
-  dependencies:
-    null-check "^1.0.0"
-
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -3550,11 +3544,10 @@ karma-chai@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/karma-chai/-/karma-chai-0.1.0.tgz#bee5ad40400517811ae34bb945f762909108b79a"
 
-karma-chrome-launcher@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.1.1.tgz#216879c68ac04d8d5140e99619ba04b59afd46cf"
+karma-chrome-launcher@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/karma-chrome-launcher/-/karma-chrome-launcher-3.0.0.tgz#5c3a7f877a304e90781c28fcd9a49e334a890f42"
   dependencies:
-    fs-access "^1.0.0"
     which "^1.2.1"
 
 karma-coverage@^1.0.0:
@@ -4295,10 +4288,6 @@ npm-utils@1.7.1:
     console-control-strings "~1.1.0"
     gauge "~2.7.1"
     set-blocking "~2.0.0"
-
-null-check@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz#977dffd7176012b9ec30d2a39db5cf72a0439edd"
 
 null-loader@^0.1.1:
   version "0.1.1"
